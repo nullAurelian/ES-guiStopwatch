@@ -1,14 +1,20 @@
 ﻿<Page
-    x:Class="MMSS_TimerVB.MainPage"
+    x:Class="MMSS_Timer.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:MMSS_TimerVB"
+    xmlns:local="using:MMSS_Timer"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <StackPanel x:Name="contentPanel" Margin="10,10,10,10">
+            <TextBlock HorizontalAlignment="Left" FontSize="64" x:Name="timerOutput"/>
+            <StackPanel x:Name="inputPanel" Orientation="Horizontal" Margin="0,20,0,20">
+                <Button x:Name="startButton" Content="START\PAUSE" FontSize="32" Click="Start_Click"/>
+                <Button x:Name="resetButton" Content="RESET" FontSize="32" Click="Reset_Click"/>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Page>

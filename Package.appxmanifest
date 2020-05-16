@@ -7,14 +7,14 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="23c7e651-9876-4409-bb29-3cb9b7a427db"
+    Name="ff1ad013-b1eb-445e-8309-16c9b131a275"
     Publisher="CN=eugen"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="23c7e651-9876-4409-bb29-3cb9b7a427db" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="ff1ad013-b1eb-445e-8309-16c9b131a275" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>MMSS_TimerVB</DisplayName>
+    <DisplayName>MMSS_Timer</DisplayName>
     <PublisherDisplayName>eugen</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="MMSS_TimerVB.App">
+      EntryPoint="MMSS_Timer.App">
       <uap:VisualElements
-        DisplayName="MMSS_TimerVB"
+        DisplayName="MMSS_Timer"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="MMSS_TimerVB"
+        Description="MMSS_Timer"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
